@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap");
+
+
+body {
+  min-width: 668px;
+  max-width: 999px;
+  margin-left: 30px;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#logoBooki {
+  width: 100px;
+  height: 60px;
+  margin-right: 150px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+header {
+  margin-bottom: 50px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+nav li {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+}
+
+.search-bar {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+input {
+  font-size: 14px;
+  color: black;
+  font-weight: 700;
+}
+
+.search-bar i {
+  color: blue;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+#search-btn>span {
+  display: block;
+}
+
+#search-btn i {
+  display: flex;
+  background-color: blue;
+  color: #f2f2f2;
+  border-radius: 15px 15px 15px 15px;
+  display: none;
+}
+
+h2 {
+  width: 100%;
+  margin-left: 40px;
+}
+
+.economique {
+  font-size: 13px;
+}
+
+/****************** Hébergement et les plus populaires***************/
+
+#titre-hebergement {
+  padding-left: 0px;
+}
+
+.mes-titres-carte {
+  font-size: 12px;
+}
+
+#zones-hebergement-et-populaire {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#hebergement {
+  width: 95%;
+  display: flex;
+}
+
+.mes-titres-tres-important {
+  margin-left: 5px;
+}
+
+#populaire {
+  width: 100%;
+  display: flex;
+  margin-left: 14px;
+}
+
+#titre-populaire {
+  padding-left: 0px;
+}
+
+#titre-populaire i {
+  margin-right: -45px;
+}
+
+#container-cartes-populaire {
+  flex-direction: row;
+  padding: 8px 0px 20px 0px;
+
+}
+
+.carte-populaire {
+  width: 30%;
+  height: 140px;
+  background-color: white;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/******************** Activités à Marseille*******************/
+h3 {
+  margin-left: -2px;
+  font-size: 20px;
+}
+
+#Activites {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 10px;
+
+}
+
+.Conteneur {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -50px;
+  gap: 40px;
+}
+
+#Activites img {
+  width: 100%;
+  height: 160px;
+}
+
+.vieux_port {
+  width: 42%;
+  height: 200px;
+  align-self: start;
+  margin: 30px -25px 0 -10px;
+}
+
+.Notredame {
+  height: 200px;
+}
+
+.parck_longchamp {
+  height: 200px;
+}
+
+.classe1 {
+  width: 42%;
+  height: 400px;
+  margin-left: 40px;
+  margin-right: -80px;
+}
+
+.Fort {
+  height: 200px;
+  margin-top: 10px;
+}
+
+.Ile {
+  height: 200px;
+}
+
+.classe2 {
+  width: 42%;
+  height: 450px;
+  margin-right: 310px;
+  margin-top: -430px; 
+  margin-left: 0px;
+}
+
+.Notredame {
+  height: 200px;
+}
+
+.parck_longchamp {
+  height: 200px;
+}
+
+.parck-calanques {
+  width: 42%;
+  height: 200px;
+  position: relative;
+  top: 50px;
+  right: -220px;
+  margin-right: 0px;
+}
+
+
+
+/***************** Footer*************************/
+
+footer {
+  display: flex;
+  max-width: 88%;
+  font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 5px 0 5px;
+  padding: 5px 20px 20px 30px;
+  background-color: #f2f2f2;
+}
+
+footer li {
+  font-size: 12px;
+}
+
+.Apropos {
+  margin-left: 40px;
+}
+
+.Nos-hebergements {
+  margin-right: 65px;
+}
+
+.Assistance {
+  margin-right: 70px;
+}

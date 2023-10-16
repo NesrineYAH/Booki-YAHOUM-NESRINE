@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap");
+
+body {
+    min-width: 375px;
+    max-width: 670px;
+    font-size: 12px;
+    margin-left: 15px;
+    font-family:'Raleway', sans-serif;
+    align-items: center;
+}
+
+
+/***********************header********************/
+header {
+    align-items: center;
+    border-bottom: 3px solid #F2F2F2;
+    padding-bottom: 3px;
+}
+
+#logoBooki {
+    width: 40%;
+    align-items: center;
+    margin-left: 120px;
+    padding-bottom: 10px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+nav ul {
+    display: flex;
+    padding-bottom: 0px;
+}
+nav li {
+    list-style-type: none;
+    font-size: 15px;
+    justify-content: space-evenly;
+}
+
+nav a {
+    padding: 32px;
+   justify-content: center;
+}
+
+nav a:hover {
+    color: blue;
+    border-top: transparent;
+    padding-bottom: 15px;
+    border-bottom: 3px blue solid;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: start;
+    margin: 35px 40px 0 0;
+    overflow: auto;
+}
+
+.search-bar {
+    padding: 15px 15px 10px 25px;
+}
+
+input {
+    font-size: 14px;
+    text-decoration-color: black;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+#search-btn {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.search-bar i {
+    padding: 15px 15px 15px 15px;
+    align-self: center;
+    background-color: #F2F2F2;
+    font-size: 16px;
+    margin: 0 -5px 0 -5px;
+}
+
+#search-btn span {
+    display: none;
+}
+
+#search-btn i {
+    display: flex;
+    background-color: blue;
+    color: white;
+    align-self: center;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+}
+
+h2 {
+    width: 100%;
+    font-size: 18px;
+}
+
+.economique {
+    font-size: 14px;
+    margin: 5px;
+    padding-right: 8px;
+}
+
+.info {
+    margin-left: 10px;
+    width: 90%;
+}
+
+/**************** les plus populaires********************/
+#zones-hebergement-et-populaire {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+#populaire {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+#container-cartes-populaire {
+    width: 100%;
+    flex-direction: column;
+}
+
+.carte-populaire {
+    width: 92%;
+    height: 140px;
+    background-color: white;
+}
+
+.carte-note-populaire {
+    font-size: 12px;
+    margin-left: 0;
+}
+
+.mes-titres-tres-important {
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+/***************Hébergement à Marseille*******************/
+
+#hebergement {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+}
+
+#zone-cartes-hebergement {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+#container-cartes-hebergement {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.carte-hebergement {
+    width: 95%;
+}
+
+.carte-note-hebergement {
+    font-size: 12px;
+    margin-left: 0px;
+}
+
+/**********************Activités à Marseille********************/
+h3 {
+    font-size: 20px;
+    margin-right: 140px;
+    margin-left: -60px;
+}
+
+#Activites {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Conteneur {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-left: -70px;
+
+}
+
+#Activites img {
+    width: 100%;
+    height: 140px;
+}
+
+.ma-carte-mobile {
+    width: 90%;
+    height: 180px;
+    margin: 25px;
+}
+.vieux_port{
+    margin-left: -8px;
+}
+.parck-calanques{
+    margin-top: 40px;
+   margin-left: 42px; 
+}
+
+.classe1{
+    width: 100%;
+    height: 400px;
+    margin-top: -30px;
+    margin-left: -40px;
+  }
+  .Fort{
+    margin-bottom: 40px;
+  }
+.classe2{
+    width: 100%;
+    height: 400px;
+    margin-top: -30px;
+  }
+  .Notredame{
+    margin-bottom: 40px;
+  }
+/**************footer************************/
+
+footer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    margin-top: 70px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+footer li {
+    font-size: 14px;
+}
+
+
+.Apropos {
+    margin-left: 40px;
+}
+
+.Nos-hebergements {
+    margin-left: 40px;
+}
+
+.Assistance {
+    margin-left: 40px;
+}
